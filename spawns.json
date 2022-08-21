@@ -1,0 +1,38 @@
+{
+	"settings": {
+		"north": "10 10 0",
+		"south": "-10 10 0",
+		"east": "0 10 10",
+		"west": "0 10 -10"
+	},
+	"rounds": {
+		"1": {
+			"north": [
+				"pig"
+			],
+			"south": [
+				"pig"
+			],
+			"east": [
+				"pig"
+			],
+			"west": [
+				"pig"
+			]
+		},
+		"2": {
+			"north": [
+				"pig"
+			],
+			"south": [
+				"pig"
+			],
+			"east": [
+				"pig"
+			],
+			"west": [
+				"pig"
+			]
+		}
+	}
+}

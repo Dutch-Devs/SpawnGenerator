@@ -1,0 +1,1 @@
+This is a quick script to generate a .mcfunction file from a JSON file.
