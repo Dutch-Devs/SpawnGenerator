@@ -7,32 +7,32 @@
 	},
 	"rounds": {
 		"1": {
-			"north": [
-				"pig"
-			],
-			"south": [
-				"pig"
-			],
-			"east": [
-				"pig"
-			],
-			"west": [
-				"pig"
-			]
+			"north": {
+				"skellie": 10
+			},
+			"south": {
+				"skellie": 10
+			},
+			"east": {
+				"skellie": 10
+			},
+			"west": {
+				"skellie": 10
+			}
 		},
 		"2": {
-			"north": [
-				"pig"
-			],
-			"south": [
-				"pig"
-			],
-			"east": [
-				"pig"
-			],
-			"west": [
-				"pig"
-			]
+			"north": {
+				"skellie": 10
+			},
+			"south": {
+				"skellie": 10
+			},
+			"east": {
+				"skellie": 10
+			},
+			"west": {
+				"skellie": 10
+			}
 		}
 	}
 }
