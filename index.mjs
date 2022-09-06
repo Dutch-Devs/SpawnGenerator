@@ -13,7 +13,9 @@ for (const round of Object.entries(spawns.rounds)) {
 		for (const [nickname, amount] of Object.entries(mobsToSpawn[v])) {
 			const mobData = mobs[nickname];
 			const mobType = mobData.mobType;
-			const NBT = mobData.nbt
+			const globalNBT = spawns.settings?.globalNBT ? `,${spawns.settings.globalNBT}` : "";
+			const NBT = mobData.nbt + globalNBT
+
 
 			commands.push(`execute as @e[limit=${amount}] run summon minecraft:${mobType} ${coords} {${NBT}}`);
 		}

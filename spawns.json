@@ -1,37 +1,24 @@
 {
 	"settings": {
-		"north": "10 10 0",
-		"south": "-10 10 0",
-		"east": "0 10 10",
-		"west": "0 10 -10"
+		"north": "32.00 12.00 -3.00",
+		"south": "32.00 12.00 35.00",
+		"east": "51.00 12.00 16.00",
+		"west": "13.00 12.00 16.00",
+		"globalNBT": "Team: \"mobs\""
 	},
 	"rounds": {
 		"1": {
 			"north": {
-				"skellie": 10
+				"zombie_lvl1": 2
 			},
 			"south": {
-				"skellie": 10
+				"zombie_lvl1": 2
 			},
 			"east": {
-				"skellie": 10
+				"zombie_lvl1": 2
 			},
 			"west": {
-				"skellie": 10
-			}
-		},
-		"2": {
-			"north": {
-				"skellie": 10
-			},
-			"south": {
-				"skellie": 10
-			},
-			"east": {
-				"skellie": 10
-			},
-			"west": {
-				"skellie": 10
+				"zombie_lvl1": 2
 			}
 		}
 	}
