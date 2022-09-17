@@ -1,0 +1,104 @@
+﻿Name,Level,NBT readable,HP,MobType,NBT,Introduced in round,Has baby,Flying,Shoots,Overworld
+Bee,Level 1,Infinite stinging,,bee,,6,,true,,true
+Bee,Level 2,"Infinite stinging
+20 HP",20,bee,,34,,true,,true
+Bee,Level 3,"Infinite stinging
+150 HP",150,bee,,90,,true,,true
+Blaze,Level 1,Normal blaze,,blaze,,21,,true,true,
+Blaze,Level 2,30 HP,30,blaze,,39,,true,true,
+Cave spider,Level 1,Normal cave spider,,cave_spider,,12,,,,true
+Cave spider,Level 2,Has speed,,cave_spider,"ActiveEffects:[{Id:1,Amplifier:1b,Duration:2147483647,ShowParticles:1b}]",35,,,,true
+Cave spider,Level 3,"Invisible
+Has speed",,cave_spider,"ActiveEffects:[{Id:1,Amplifier:1b,Duration:2147483647,ShowParticles:1b},{Id:14,Amplifier:1b,Duration:2147483647}]",83,,,,true
+Chicken Jockey,Level 1,Has level 1 zombie,,chicken,"CanPickUpLoot:1b,IsChickenJockey:1b,Passengers:[{id:""minecraft:zombie"",IsBaby:1b,CanBreakDoors:0b,CanPickUpLoot:1b}]",14,,,,true
+Chicken Jockey,Level 2,Has level 2 zombie,,chicken,"CanPickUpLoot:1b,IsChickenJockey:1b,Passengers:[{id:""minecraft:zombie"",IsBaby:1b,CanBreakDoors:1b,CanPickUpLoot:1b}]",39,true,,,true
+Chicken Jockey,Level 3,Has level 3 zombie,,chicken,"CanPickUpLoot:1b,IsChickenJockey:1b,Passengers:[{id:""minecraft:zombie"",IsBaby:1b,CanBreakDoors:1b,CanPickUpLoot:1b,HandItems: [{id: ""iron_sword"", Count: 1}]}]",59,true,,,true
+Creeper,Level 1,Normal creeper,,creeper,,4,,,,true
+Creeper,Level 2,"Explosion radius of 6
+Permanent fuse time of 15",,creeper,"ExplosionRadius: 6b, Fuse: 15",35,,,,true
+Creeper,Level 3,Powered creeper,,creeper,powered:1b,52,,,,true
+Drowned,Level 1,Normal drowned,,drowned,"CanBreakDoors:0b,IsBaby:0b,",14,true,,,true
+Drowned,Level 2,"Has a trident
+Can break doors",,drowned,"CanBreakDoors:1b,IsBaby:0b,HandItems:[{id:""minecraft:trident"",Count:1b,tag:{display:{Name:'{""text"":""Spicy Fork""}'}}},{}]",37,true,,true,true
+Drowned,Level 3,"Can break doors
+Trident 40 HP",40,drowned,"CanBreakDoors:1b,IsBaby:0b,HandItems:[{id:""minecraft:trident"",Count:1b,tag:{display:{Name:'{""text"":""Spicy Fork""}'}}},{}]",58,true,,true,true
+Evoker,Level 1,Normal evoker,,evoker,,49,,,true,true
+Evoker,Level 2,Spell delay of 7 seconds,,evoker,,69,,,true,true
+Evoker,Level 3,"Spell delay of 5 seconds
+30 HP",30,evoker,,76,,,true,true
+Ghast,Level 1,Normal ghast,,ghast,,26,,true,true,
+Ghast,Level 2,Explosion power of 2,,ghast,ExplosionPower: 2,40,,true,true,
+Ghast,Level 3,"Explosion power of 3
+20 HP",20,ghast,ExplosionPower: 3,57,,true,true,
+Hoglin,Level 1,Normal hoglin,,hoglin,,22,,,,
+Husk,Level 1,Normal husk,,husk,"CanBreakDoors:0b,IsBaby:0b",6,true,,,true
+Husk,Level 2,Can break doors,,husk,"CanBreakDoors:1b,IsBaby:0b",32,true,,,true
+Husk,Level 3,"Iron sword
+Can break doors",,husk,"CanBreakDoors:1b,IsBaby:0b,HandItems:[{id:""minecraft:iron_sword"",Count:1b,tag:{display:{Name:'{""text"":""Stabber""}'}}},{}]",58,true,,,true
+Magma Cube,Level 1,Medium size,,magma_cube,Size:1,21,,,,
+Magma Cube,Level 2,Large size,,magma_cube,Size:3,41,,,,
+Phantom,Level 1,Normal phantom,,phantom,,17,,true,,true
+Phantom,Level 2,30 HP,30,phantom,,35,,true,,true
+Phantom,Level 3,"size 16
+50 Hp",50,phantom,Size:16,54,,true,,true
+Piglin,Level 1,Crossbow,,piglin,"HandItems:[{id:""minecraft:crossbow"",Count:1b},{}]",22,true,,true,
+Piglin,Level 2,Golden sword,,piglin,"HandItems:[{id:""minecraft:golden_sword"",Count:1b},{}]",39,true,,true,
+Piglin,Level 3,"Golden chestplate
+Golden sword with sharpness",,piglin,"HandItems:[{id:""minecraft:golden_sword"",Count:1b,tag:{Enchantments:[{id:""minecraft:sharpness"",lvl:1s}]}},{}]",60,true,,true,
+Piglin Brute,Level 1,Normal brute Golden Axe,,piglin_brute,"CanPickUpLoot:1b,IsImmuneToZombification:1b,HandItems:[{id:""minecraft:golden_axe"",Count:1b},{}]",23,,,,
+Piglin Brute,Level 2,Golden axe with sharpness,,piglin_brute,"CanPickUpLoot:1b,IsImmuneToZombification:1b,HandItems:[{id:""minecraft:golden_axe"",Count:1b,tag:{Enchantments:[{id:""minecraft:sharpness"",lvl:1s}]}},{}]",39,,,,
+Piglin Brute,Level 3,"Golden axe with sharpness
+75 HP",75,piglin_brute,"CanPickUpLoot:1b,IsImmuneToZombification:1b,HandItems:[{id:""minecraft:golden_axe"",Count:1b,tag:{Enchantments:[{id:""minecraft:sharpness"",lvl:2s}]}},{}]",60,,,,
+Pillager,Level 1,Normal pillager,,pillager,,16,,,true,true
+Pillager,Level 2,Multishot crossbow,,pillager,"HandItems:[{id:""minecraft:crossbow"",Count:1b},{}]",39,,,true,true
+Pillager,Level 3,"Instant damage arrows
+Multishot crossbow",,pillager,"HandItems:[{id:""minecraft:crossbow"",Count:1b,tag:{ChargedProjectiles:[{id:""minecraft:tipped_arrow"",Count:1b,tag:{Potion:""minecraft:strong_harming""}},{id:""minecraft:tipped_arrow"",Count:1b,tag:{Potion:""minecraft:strong_harming""}},{id:""minecraft:tipped_arrow"",Count:1b,tag:{Potion:""minecraft:strong_harming""}}],Charged:1b}},{}]",55,,,true,true
+Ravager,Level 1,Normal ravager,,ravager,,26,,,,true
+Ravager,Level 2,AttackTick of 4 seconds,,ravager,,38,,,,true
+Ravager,Level 3,"AttackTick of 2 seconds
+StunTick of 2 seconds",,ravager,,56,,,,true
+Skeleton,Level 1,Normal bow,,skeleton,"CanPickUpLoot: 1b, HandItems: [{id: ""bow"", Count: 1b}]",2,,,true,true
+Skeleton,Level 2,"Iron helmet
+Normal bow",,skeleton,"CanPickUpLoot: 1b, HandItems: [{id: ""bow"", Count: 1b}], ArmorItems: [{ id: ""iron_helmet"", Count:1b}]",29,,,true,true
+Skeleton,Level 3,Flame bow,,skeleton,"CanPickUpLoot: true, HandItems: [{id: ""bow"", Count:1b, tag: {Enchantments: [{id: ""flame"", lvl: 1}]}}]",52,,,true,true
+Slime,Level 1,Medium size,,slime,Size:1,13,,,,true
+Slime,Level 2,Big size,,slime,Size:3,15,,,,true
+Spider,Level 1,normal spider,,spider,,3,,,,true
+Spider,Level 2,Has speed,,spider,"ActiveEffects:[{Id:1,Amplifier:1b,Duration:2147483647}]",31,,,,true
+Spider Jockey,Level 1,Normal Bow,,spider,"Passengers:[{id: ""skeleton"", CanPickUpLoot: false, HandItems: [{id: ""bow"", Count: 1b}]}]",8,,,true,true
+Spider Jockey,Level 2,"Normal Bow
+Iron Helmet",,spider,"Passengers:[{id: ""skeleton"", CanPickUpLoot: false, HandItems: [{id: ""bow"", Count: 1b}], ArmorItems: [{ id: ""iron_helmet"", Count: 1b}]}]",39,,,true,true
+Spider Jockey,Level 3,Flame Bow,,spider,"Passengers:[{id: ""skeleton"", CanPickUpLoot: true, HandItems: [{id: ""bow"",Count:1b, tag: {Enchantments: [{id: ""flame"", lvl: 1}]}}]}]",59,,,true,true
+Stray,Level 1,Normal Stray,,stray,,7,,,true,true
+Stray,Level 2,Iron Helmet,,stray,"ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1b}]",32,,,true,true
+Stray,Level 3,Punch bow,,stray,"HandItems:[{id:""minecraft:bow"",Count:1b,tag:{Enchantments:[{id:""minecraft:punch"",lvl:3s}]}},{}],ArmorItems:[{},{},{},{id:""minecraft:iron_helmet"",Count:1b}]",53,,,true,true
+Vex,Level 1,Normal vex,,vex,,13,,true,,true
+Vex,Level 2,Doesn’t die automatically,,vex,LifeTicks:2147483647,33,,true,,true
+Vex,Level 3,"Doesn’t die automatically
+Sharpness iron sword",,vex,"HandItems:[{id:""minecraft:iron_sword"",Count:1b,tag:{Enchantments:[{id:""minecraft:sharpness"",lvl:1s}]}},{}],LifeTicks:2147483647",55,,true,,true
+Vindicator,Level 1,Iron axe,,vindicator,"HandItems:[{id:""minecraft:iron_axe"",Count:1b},{}]",16,,,,true
+Vindicator,Level 2,Iron axe with sharpness,,vindicator,"HandItems:[{id:""minecraft:iron_axe"",Count:1b,tag:{Enchantments:[{id:""minecraft:sharpness"",lvl:1s}]}},{}]",37,,,,true
+Vindicator,Level 3,"Iron axe with sharpness 2
+36 health",36,vindicator,"HandItems:[{id:""minecraft:iron_axe"",Count:1b,tag:{Enchantments:[{id:""minecraft:sharpness"",lvl:2s}]}},{}]",69,,,,true
+Warden,Boss,its a boss bruh,,warden,,50,,,,true
+Witch,Level 1,Normal Witch,,witch,CanPickUpLoot: false,9,,,,true
+Witch,Level 2,40 Health Points,40,witch,CanPickUpLoot: false,34,,,,true
+Witch,Level 3,60 Health Points,60,witch,CanPickUpLoot: true,56,,,,true
+Wither,Boss,its a boss bruh,,wither,,100,,,,
+Wither Skeleton,Level 1,Iron sword,,wither_skeleton,"HandItems:[{id:""minecraft:iron_sword"",Count:1b},{}]",22,,,,true
+Wither Skeleton,Level 2,Iron sword with sharpness,,wither_skeleton,"HandItems:[{id:""minecraft:iron_sword"",Count:1b,tag:{Enchantments:[{id:""minecraft:sharpness"",lvl:1s}]}},{}]",39,,,,
+Wither Skeleton,Level 3,"Iron sword with sharpness 2
+40 HP",40,wither_skeleton,"HandItems:[{id:""minecraft:iron_sword"",Count:1b,tag:{Enchantments:[{id:""minecraft:sharpness"",lvl:2s}]}},{}]",61,,,,true
+Zoglin,Level 1,Normal Zoglin,,zoglin,,22,,,,
+Zoglin,Level 2,80 Health Points,80,zoglin,,61,,,,
+Zombie,Level 1,Normal zombie,,zombie,"CanPickUpLoot: false, IsBaby: false",1,true,,,true
+Zombie,Level 2,Can break doors,,zombie,"CanPickUpLoot: false, IsBaby: false, CanBreakDoors: true",30,true,,,true
+Zombie,Level 3,"Iron sword
+Can break doors",,zombie,"CanPickUpLoot: true, IsBaby: false, CanBreakDoors: true, HandItems: [{id: ""iron_sword"", Count: 1}]",51,true,,,true
+Zombified piglin,Level 1,Golden sword,,zombified_piglin,"IsBaby:0b,CanBreakDoors:0b,HandItems:[{id:""minecraft:golden_sword"",Count:1b},{}]",23,true,,,
+Zombified piglin,Level 2,"Golden sword
+Golden helmet
+Can break doors",,zombified_piglin,"IsBaby:0b,CanBreakDoors:1b,HandItems:[{id:""minecraft:golden_sword"",Count:1b},{}],ArmorItems:[{},{},{},{id:""minecraft:golden_helmet"",Count:1b}]",39,true,,,
+Zombified piglin,Level 3,"Can break doors
+Golden boots
+Golden sword with sharpness",,zombified_piglin,"IsBaby:0b,CanBreakDoors:1b,HandItems:[{id:""minecraft:golden_sword"",Count:1b,tag:{Enchantments:[{id:""minecraft:sharpness"",lvl:1s}]}},{}],ArmorItems:[{id:""minecraft:golden_boots"",Count:1b},{},{},{}]",61,true,,,

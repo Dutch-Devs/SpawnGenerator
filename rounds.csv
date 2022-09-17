@@ -1,0 +1,530 @@
+﻿Round,North,South,East,West,Credits,Totems
+1,zombie_1,zombie_1,zombie_1,zombie_1,4,
+2,skeleton_1,skeleton_1,2 zombie_1,2 zombie_1,6,
+3,"zombie_1
+skeleton_1","zombie_1
+skeleton_1",spider_1,spider_1,6,
+4,creeper_1,creeper_1,"2 zombie_1
+1 skeleton_1","2 zombie_1
+1 skeleton_1",8,
+5,"2 zombie_1
+2 spider_1","2 zombie_1
+2 spider_1","2 creeper_1
+2 skeleton_1","2 creeper_1
+2 skeleton_1",16,
+6,"bee_1
+husk_1","bee_1
+husk_1",2 husk_1,2 husk_1,8,
+7,"stray_1
+2 spider_1","stray_1
+2 spider_1","3 zombie_1
+2 skeleton_1","3 zombie_1
+2 skeleton_1",16,
+8,"spider_jockey_1
+skeleton_1","spider_jockey_1
+skeleton_1","spider_jockey_1
+skeleton_1","spider_jockey_1
+skeleton_1",12,
+9,"witch_1
+2 skeleton_1","witch_1
+2 skeleton_1","witch_1
+2 creeper_1","witch_1
+2 creeper_1",12,
+10,"2 bee_1
+stray_1
+husk_1
+witch_1","2 bee_1
+stray_1
+husk_1
+witch_1","2 bee_1
+stray_1
+husk_1
+witch_1","2 bee_1
+stray_1
+husk_1
+witch_1",20,
+11,"2 baby_zombie_1
+2 zombie_1","2 baby_zombie_1
+2 zombie_1","2 baby_zombie_1
+2 zombie_1","2 baby_zombie_1
+2 zombie_1",8,
+12,"cave_spider_1
+2 baby_husk_1","cave_spider_1
+2 baby_husk_1","cave_spider_1
+2 baby_husk_1","cave_spider_1
+2 baby_husk_1",12,
+13,"slime_1
+vex_1","slime_1
+vex_1","slime_1
+vex_1","slime_1
+vex_1",20,
+14,"2 chicken_jockey_1
+2 drowned_1","2 chicken_jockey_1
+2 drowned_1","2 chicken_jockey_1
+2 drowned_1","2 chicken_jockey_1
+2 drowned_1",16,
+15,"baby_zombie_1
+cave_spider_1
+baby_husk_1
+slime_2
+vex_1
+drowned_1","baby_zombie_1
+cave_spider_1
+baby_husk_1
+slime_2
+vex_1
+drowned_1","baby_zombie_1
+cave_spider_1
+baby_husk_1
+vex_1
+drowned_1","baby_zombie_1
+cave_spider_1
+baby_husk_1
+vex_1
+drowned_1",46,
+16,"2 vindicator_1
+2 pillager_1","2 vindicator_1
+2 pillager_1","2 vindicator_1
+2 pillager_1","2 vindicator_1
+2 pillager_1",16,
+17,"2 phantom_1
+2 skeleton_1","2 phantom_1
+2 skeleton_1","2 phantom_1
+2 skeleton_1","2 phantom_1
+2 skeleton_1",16,
+18,"2 bee_1
+stray_1
+husk_1
+3 zombie_1","2 bee_1
+stray_1
+husk_1
+3 zombie_1","2 bee_1
+stray_1
+husk_1
+3 zombie_1","2 bee_1
+stray_1
+husk_1
+3 zombie_1",28,
+19,"2 cave_spider_1
+2 baby_zombie_1
+2 vex_1","2 cave_spider_1
+2 baby_zombie_1
+2 vex_1","2 cave_spider_1
+2 baby_zombie_1
+2 vex_1","2 cave_spider_1
+2 baby_zombie_1
+2 vex_1",24,
+20,"slime_2
+3 bee_1
+2 skeleton_1
+phantom_1","slime_2
+3 bee_1
+2 skeleton_1
+phantom_1","slime_2
+3 vex_1
+2 witch_1
+cave_spider_1","slime_2
+3 vex_1
+2 witch_1
+cave_spider_1",76,
+21,"blaze_1
+magma_cube_1","blaze_1
+magma_cube_1","blaze_1
+magma_cube_1","blaze_1
+magma_cube_1",8,
+22,"2 wither_skeleton_1
+hoglin_1","2 wither_skeleton_1
+hoglin_1","2 piglin_1
+zoglin_1","2 piglin_1
+zoglin_1",12,
+23,"4 zombified_piglin_1
+piglin_brute_1","4 zombified_piglin_1
+piglin_brute_1",4 zombified_piglin_1,4 zombified_piglin_1,18,
+24,"baby_drowned_1
+baby_husk_1
+baby_piglin_1
+baby_zombie_1
+baby_zombified_piglin_1","baby_drowned_1
+baby_husk_1
+baby_piglin_1
+baby_zombie_1
+baby_zombified_piglin_1","baby_drowned_1
+baby_husk_1
+baby_piglin_1
+baby_zombie_1
+baby_zombified_piglin_1","baby_drowned_1
+baby_husk_1
+baby_piglin_1
+baby_zombie_1
+baby_zombified_piglin_1",20,
+25,"slime_1
+zombie_1
+spider_1
+chicken_jockey_1
+zoglin_1
+baby_husk_1
+blaze_1
+zombified_piglin_1","slime_2
+husk_1
+cave_spider_1
+witch_1
+hoglin_1
+wither_skeleton_1
+baby_drowned_1","bee_1
+skeleton_1
+creeper_1
+baby_zombie_1
+magma_cube_1
+pillager_1
+baby_zombified_piglin_1
+piglin_brute_1","vex_1
+stray_1
+drowned_1
+spider_jockey_1
+phantom_1
+vindicator_1
+piglin_1
+baby_piglin_1",45,
+26,ghast_1,ghast_1,ravager_1,ravager_1,4,
+27,"2 ghast_1
+2 bee_1
+2 phantom_1
+2 vex_1
+2 blaze_1","2 ghast_1
+2 bee_1
+2 phantom_1
+2 vex_1
+2 blaze_1","2 ghast_1
+2 bee_1
+2 phantom_1
+2 vex_1
+2 blaze_1","2 ghast_1
+2 bee_1
+2 phantom_1
+2 vex_1
+2 blaze_1",40,
+28,"zombie_1
+baby_zombie_1
+husk_1
+baby_husk_1
+drowned_1
+baby_drowned_1
+zombified_piglin_1
+baby_zombified_piglin_1","zombie_1
+baby_zombie_1
+husk_1
+baby_husk_1
+drowned_1
+baby_drowned_1
+zombified_piglin_1
+baby_zombified_piglin_1","skeleton_1
+stray_1
+wither_skeleton_1
+spider_jockey_1
+","skeleton_1
+stray_1
+wither_skeleton_1
+spider_jockey_1
+",26,
+29,"2 skeleton_2
+pillager_1
+2 blaze_1
+stray_1
+ghast_1
+piglin_1","2 skeleton_2
+pillager_1
+2 blaze_1
+stray_1
+ghast_1
+piglin_1","2 skeleton_2
+pillager_1
+2 blaze_1
+stray_1
+ghast_1
+piglin_1","2 skeleton_2
+pillager_1
+2 blaze_1
+stray_1
+ghast_1
+piglin_1",32,
+30,"2 zombie_2
+2 skeleton_2","2 zombie_2
+2 skeleton_2","2 zombie_2
+2 skeleton_2","2 zombie_2
+2 skeleton_2",16,
+31,3 spider_2,3 spider_2,3 spider_2,3 spider_2,12,
+32,"2 husk_2
+2 stray_2","2 husk_2
+2 stray_2","2 husk_2
+2 stray_2","2 husk_2
+2 stray_2",16,
+33,3 vex_2,3 vex_2,3 vex_2,3 vex_2,12,
+34,"witch_2
+3 bee_2","witch_2
+3 bee_2","witch_2
+3 bee_2","witch_2
+3 bee_2",16,
+35,"2 creeper_2
+2 cave_spider_2","2 creeper_2
+2 cave_spider_2","2 creeper_2
+2 cave_spider_2","2 creeper_2
+2 cave_spider_2",16,
+36,"2 vex_2
+2 bee_2
+2 phantom_2","2 vex_2
+2 bee_2
+2 phantom_2","2 vex_2
+2 bee_2
+2 phantom_2","2 vex_2
+2 bee_2
+2 phantom_2",24,
+37,"vindicator_2
+drowned_2","vindicator_2
+drowned_2","4 zombie_1
+2 skeleton_1
+creeper_1
+2 spider_1","4 zombie_1
+2 skeleton_1
+creeper_1
+2 spider_1",22,
+38,"ravager_2
+2 ravager_1","ravager_2
+2 ravager_1","ravager_2
+2 ravager_1","ravager_2
+2 ravager_1",12,
+39,"chicken_jockey_2
+blaze_2","pillager_2
+wither_skeleton_2","spider_jockey_2
+piglin_brute_2","piglin_2
+zombified_piglin_2",8,
+40,"ghast_2
+2 creeper_2
+blaze_1","ghast_2
+2 creeper_2
+blaze_1","ghast_2
+2 creeper_2
+blaze_1","ghast_2
+2 creeper_2
+blaze_1",16,
+41,"2 magma_cube_2
+2 slime_2","2 magma_cube_2
+2 slime_2","2 magma_cube_2
+2 slime_2","2 magma_cube_2
+2 slime_2",104,
+42,"4 spider_jockey_2
+ravager_2
+3 vex_2","4 spider_jockey_2
+ravager_2
+3 vex_2","4 spider_jockey_2
+ravager_2
+3 vex_2","4 spider_jockey_2
+ravager_2
+3 vex_2",32,
+43,"3 phantom_2
+2 skeleton_2
+2 spider_jockey_2","3 phantom_2
+2 skeleton_2
+2 spider_jockey_2","3 phantom_2
+2 skeleton_2
+2 spider_jockey_2","3 phantom_2
+2 skeleton_2
+2 spider_jockey_2",36,
+44,"3 witch_2
+2 blaze_2
+5 bee_2","3 witch_2
+2 blaze_2
+5 bee_2","3 witch_2
+2 blaze_2
+5 bee_2","3 witch_2
+2 blaze_2
+5 bee_2",40,
+45,"2 drowned_2
+3 ghast_2","2 drowned_2
+3 ghast_2","2 drowned_2
+3 ghast_2","2 drowned_2
+3 ghast_2",20,
+46,10 vex_2,10 vex_2,10 vex_2,10 vex_2,40,
+47,"7 skeleton_2
+8 cave_spider_2","7 skeleton_2
+8 cave_spider_2","7 skeleton_2
+8 cave_spider_2","7 skeleton_2
+8 cave_spider_2",60,
+48,"3 slime_2
+8 bee_2","3 slime_2
+8 bee_2","3 slime_2
+8 bee_2","3 slime_2
+8 bee_2",188,
+49,evoker_1,evoker_1,evoker_1,evoker_1,4,4
+50,warden,,,,1,
+51,2 zombie_3,2 zombie_3,2 zombie_3,2 zombie_3,8,
+52,"2 skeleton_3
+creeper_3","2 skeleton_3
+creeper_3","2 skeleton_3
+creeper_3","2 skeleton_3
+creeper_3",12,
+53,"6 stray_3
+","6 stray_3
+","6 stray_3
+","6 stray_3
+",24,
+54,phantom_3,phantom_3,phantom_3,phantom_3,4,
+55,"5 vex_3
+2 pillager_3","5 vex_3
+2 pillager_3","5 vex_3
+2 pillager_3","5 vex_3
+2 pillager_3",28,
+56,"3 witch_3
+ravager_3","3 witch_3
+ravager_3","3 witch_3
+ravager_3","3 witch_3
+ravager_3",16,
+57,4 ghast_3,4 ghast_3,4 ghast_3,4 ghast_3,16,
+58,"3 drowned_3
+7 husk_3","3 drowned_3
+7 husk_3","3 drowned_3
+7 husk_3","3 drowned_3
+7 husk_3",40,
+59,"3 chicken_jockey_3
+3 spider_jockey_3","3 chicken_jockey_3
+3 spider_jockey_3","3 chicken_jockey_3
+3 spider_jockey_3","3 chicken_jockey_3
+3 spider_jockey_3",24,
+60,"3 piglin_3
+2 piglin_brute_3","3 piglin_3
+2 piglin_brute_3","3 piglin_3
+2 piglin_brute_3","3 piglin_3
+2 piglin_brute_3",20,
+61,"zoglin_2
+2 wither_skeleton_3
+zombified_piglin_1","zoglin_2
+2 wither_skeleton_3
+zombified_piglin_1","zoglin_2
+2 wither_skeleton_3
+zombified_piglin_1","zoglin_2
+2 wither_skeleton_3
+zombified_piglin_1",16,
+62,20 cave_spider_2,20 cave_spider_2,20 cave_spider_2,20 cave_spider_2,80,
+63,"6 witch_3
+6 bee_3","6 witch_3
+6 bee_3","6 witch_3
+6 bee_3","6 witch_3
+6 bee_3",48,
+64,16 zombie_3,16 skeleton_3,16 creeper_3,16 spider_2,64,
+65,2 ravager_3,2 ravager_3,2 ravager_3,2 ravager_3,8,
+66,"2 zombie_2
+2 skeleton_1","2 zombie_2
+2 skeleton_1","2 zombie_2
+2 skeleton_1","2 zombie_2
+2 skeleton_1",16,
+67,"husk_1
+piglin_1","husk_1
+piglin_1","husk_1
+piglin_1","husk_1
+piglin_1",8,
+68,spider_1,spider_1,spider_1,spider_1,4,
+69,"10 cave_spider_2
+10 vex_3
+5 ghast_3
+phantom_3
+2 evoker_2
+ravager_3
+vindicator_3","10 cave_spider_2
+10 vex_3
+5 ghast_3
+phantom_3
+2 evoker_2
+ravager_3
+vindicator_3","10 cave_spider_2
+10 vex_3
+5 ghast_3
+phantom_3
+2 evoker_2
+ravager_3
+vindicator_3","10 cave_spider_2
+10 vex_3
+5 ghast_3
+phantom_3
+2 evoker_2
+ravager_3
+vindicator_3",120,8
+70,bat_skeleton_1,bat_skeleton_1,bat_skeleton_1,bat_skeleton_1,8,
+71,2 bat_skeleton_2,2 bat_skeleton_2,2 bat_skeleton_2,2 bat_skeleton_2,16,
+72,2 bat_creeper_3,2 bat_creeper_3,2 bat_creeper_3,2 bat_creeper_3,16,
+73,"6 wither_skeleton_3
+3 stray_3
+skeleton_3","6 wither_skeleton_3
+3 stray_3
+skeleton_3","6 wither_skeleton_3
+3 stray_3
+skeleton_3","6 wither_skeleton_3
+3 stray_3
+skeleton_3",40,
+74,20 bee_2,20 bee_2,20 bee_2,20 bee_2,80,
+75,bat_ravager_2,,,,2,
+76,evoker_3,evoker_3,evoker_3,evoker_3,4,4
+77,"4 spider_2
+3 slime_1","4 spider_2
+3 slime_1","4 spider_2
+3 slime_1","4 spider_2
+3 slime_1",64,
+78,4 bat_witch_3,4 bat_witch_3,4 bat_witch_3,4 bat_witch_3,32,
+79,"witch_3
+vex_3
+phantom_3
+zombie_1","witch_3
+vex_3
+phantom_3
+zombie_1","witch_3
+vex_3
+phantom_3
+zombie_1","witch_3
+vex_3
+phantom_3
+zombie_1",16,
+80,4 blaze_2,4 blaze_2,2 ghast_3,2 ghast_3,12,
+81,2 bat_stray_3,2 bat_stray_3,2 bat_stray_3,2 bat_stray_3,16,
+82,"4 piglin_brute_3
+5 piglin_3","4 piglin_brute_3
+5 piglin_3","4 piglin_brute_3
+5 piglin_3","4 piglin_brute_3
+5 piglin_3",36,
+83,cave_spider_3,cave_spider_3,cave_spider_3,cave_spider_3,4,
+84,bat_evoker_1,bat_evoker_1,bat_evoker_1,bat_evoker_1,8,4
+85,10 creeper_3,10 creeper_3,10 creeper_3,10 creeper_3,40,
+86,"3 witch_3
+phantom_3
+piglin_brute_3","3 witch_3
+phantom_3
+piglin_brute_3","3 witch_3
+phantom_3
+piglin_brute_3","3 witch_3
+phantom_3
+piglin_brute_3",20,
+87,3 bat_ghast_3,3 bat_ghast_3,3 bat_ghast_3,3 bat_ghast_3,24,
+88,"14 spider_1
+4 wither_skeleton_2","7 ravager_2
+20 vindicator_2","drowned_2
+15 pillager_3","13 zombie_1
+11 creeper_1",96,
+89,30 skeleton_1,30 skeleton_1,30 skeleton_1,30 skeleton_1,120,
+90,bat_bee_3,,,,2,
+91,30 baby_zombie_3,30 baby_zombie_3,30 baby_zombie_3,30 baby_zombie_3,120,
+92,30 phantom_2,30 phantom_2,20 vex_3,20 vex_3,100,
+93,30 bee_2,30 bee_2,30 bee_2,30 bee_2,120,
+94,"5 zombified_piglin_3
+3 wither_skeleton_2
+6 stray_2","2 vindicator_3
+4 witch_3
+zoglin_1","vex_2
+3 spider_1
+3 bat_hoglin_1",,28,
+95,,,,zombie_1,1,
+96,"5 bat_stray_3
+5 bat_skeleton_3","5 bat_stray_3
+5 bat_skeleton_3","5 bat_stray_3
+5 bat_skeleton_3","5 bat_stray_3
+5 bat_skeleton_3",80,
+97,5 ravager_3,5 ravager_3,5 ravager_3,5 ravager_3,20,
+98,3 evoker_3,3 evoker_3,3 evoker_3,3 evoker_3,12,12
+99,all_mobs,,,,,
+100,wither,,,,1,
