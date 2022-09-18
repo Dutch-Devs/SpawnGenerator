@@ -121,6 +121,12 @@ const log = console.log; // lazy lol
 		commands.push(`scoreboard players set dt max_mobs ${count}`);
 		commands.push(`function cd:round/loadvalues`);
 
+		const tellraw = `tellraw @a {"text":"Round {{round}} started with {{mobs}} mobs, good luck!","color":"#99DAAC"}`
+			.replace("{{round}}", round.Round)
+			.replace("{{mobs}}", count);
+		commands.unshift(tellraw);
+
+
 		fs.writeFileSync(`./functions/${round.Round}.mcfunction`, commands.join("\r\n"))
 	}
 
