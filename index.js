@@ -49,6 +49,7 @@ const log = console.log; // lazy lol
 
 	for (const round of roundsArrayCsv) {
 		const commands = [];
+		let count = 0;
 
 		["North", "South", "East", "West"].forEach(v => {
 			if (round[v] === '') return;
@@ -59,14 +60,20 @@ const log = console.log; // lazy lol
 
 			mobsToSpawn.forEach(mob => {
 				const amount = mob.match(/\d* /)?.[0].replace(" ", "") ?? 1;
+				count += +amount;
+				if (mob.match(/bat|jockey/g)) count++;
 				const mobName = mob.replace(/\d* /, "");
 				if (!mobName) return;
 
 				// ALL MOBS
 				if (mobName === "all_mobs") {
+					count = 0;
 					let coords = SETTINGS.North
 
 					Object.keys(mobsArrayParsed).forEach(mob => {
+						const amount = mob.match(/\d* /)?.[0].replace(" ", "") ?? 1;
+						count += amount;
+
 						const mobbie = mobsArrayParsed[mob];
 						if (mobbie.mobType === "wither") return;
 
@@ -86,7 +93,6 @@ const log = console.log; // lazy lol
 
 				// BATS
 				if (mobName.match("bat")) {
-					console.log(mobName)
 					const mobbie = mobsArrayParsed[mobName.replace("bat_", "")]
 					if (mobbie.mobType.match("baby")) {
 						mobbie.mobType = mobbie.mobType.replace("baby_", "");
@@ -106,12 +112,13 @@ const log = console.log; // lazy lol
 				}
 
 				mobbie.nbt = mobbie.nbt.replace(/,+/g, ",");
+				let fixWeirdBug = mobbie.nbt.replace(/(Passengers:\[\{id: \"\w*\",)/g, `$1${SETTINGS.globalNBT},`); // genuinely no idea
 
-				commands.push(`execute as @e[limit=${amount}] run summon minecraft:${mobbie.mobType} ${coords} {${mobbie.nbt}}`);
+				commands.push(`execute as @e[limit=${amount}] run summon minecraft:${mobbie.mobType} ${coords} {${fixWeirdBug}}`);
 			})
 		})
 
-		commands.push(`scoreboard players set dt max_mobs ${commands.length}`);
+		commands.push(`scoreboard players set dt max_mobs ${count}`);
 		commands.push(`function cd:round/loadvalues`);
 
 		fs.writeFileSync(`./functions/${round.Round}.mcfunction`, commands.join("\r\n"))
